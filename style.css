@@ -4,10 +4,14 @@ header {
     display: flex;
     background-color: rgba(148, 148, 212, 0.952);
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .header {
-    width: 20%;
-   margin: 15px 0px 0px 100px;
+    /* width: 20%; */
+   /* margin: 15px 0px 0px 10%; */
+   margin-top: 15px;
+   margin-right: 5%;
  
     
     }
@@ -17,10 +21,12 @@ header {
 
 }
 .hpara {
-
+text-align: center;
 }
 .button {
-    margin: 15px 0px 0px 100px;
+    /* margin: 15px 0px 0px 10%; */
+    margin-top: 15px;
+    margin-left: 10%;
 }
 .buttonchild {
     /* width: 85px;
@@ -111,7 +117,7 @@ color: black;
 }
 .bodylinetext { 
     /* width: 100%; */
-    padding: 5px 50px;
+    padding: 5px 5%;
     background-color: white;
 }
 
@@ -138,7 +144,7 @@ color: black;
 .bodytexthead {
     display: flex;
     
-    margin-left: 540px;
+    justify-content: center;
 }
 
 .bodytexthead1 {
@@ -216,7 +222,12 @@ color: darkcyan;
 .activityheading{
     display: flex;
     
-    margin-left: 37%;
+   justify-content: center;
+    }
+    @media only screen and (max-width : 400px){
+        .activityheading{
+            display: block;
+        }   
     }
     .activityheading1 {
      color: blueviolet;  
@@ -292,11 +303,22 @@ color: darkcyan;
 display: flex;
 margin-bottom: 80px;
 flex-wrap: wrap;
+justify-content: center;
+}
+@media only screen only (max-width: 830px){
+    .missonfuture{
+       
+    }
 }
 .misson {
-margin: 50px 0px auto 70px;
+margin-top: 50px;
 width:60%;
 
+}
+@media only screen only (max-width: 830px){
+    .misson{
+        
+    }
 }
 .misson h1 {
 color: blueviolet;
@@ -329,6 +351,11 @@ width: 250px;
 text-align: justify;
 margin: 50px 0px 0px 0px;
 }
+@media only screen and (max-width: 830px){
+    .future{
+        
+    }
+}
 .future h1 {
     color: blueviolet;
 }
@@ -345,7 +372,7 @@ margin: 50px 0px 0px 0px;
 .imgheading{
 display: flex;
 
-margin-left: 40%;
+justify-content: center;
 }
 .imgheading1 {
  color: blueviolet;  
